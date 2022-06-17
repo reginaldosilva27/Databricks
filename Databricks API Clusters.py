@@ -2,7 +2,7 @@
 import requests
 import json
 
-instance_id = 'adb-6621577254898039.19.azuredatabricks.net' ##put your databricks host here
+instance_id = 'adb-xxxxxxx.xx.azuredatabricks.net' ##put your databricks host here
 
 api_version = '/api/2.0'
 api_command = '/clusters/list'
