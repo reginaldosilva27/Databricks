@@ -36,3 +36,7 @@
 [Blog Data In Action](https://datainaction.dev/)
 
 [Github](https://github.com/reginaldosilva27)
+
+>``Referencias:``
+<https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
+<https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
