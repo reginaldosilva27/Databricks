@@ -32,11 +32,13 @@
 # MAGIC #### --> Modo Debug - Apenas print <--
 # MAGIC ``maintenanceDeltalake(nomeSchema='db_festivaldemo', nomeTabela='PatientInfoDelta', colunasZorder='none', vacuumRetention=168, vacuum=True, optimize=True, debug=True)``
 # MAGIC 
-# MAGIC >``Criado por: Reginaldo Silva``
-# MAGIC 
-# MAGIC [Blog Data In Action](https://datainaction.dev/)
-# MAGIC 
-# MAGIC [Github](https://github.com/reginaldosilva27)
+# MAGIC ``Criado por: Reginaldo Silva``
+# MAGIC - [Blog Data In Action](https://datainaction.dev/)
+# MAGIC - [Github](https://github.com/reginaldosilva27)
+# MAGIC
+# MAGIC ``Referencias:``
+# MAGIC - <https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
+# MAGIC - <https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
 
 # COMMAND ----------
 
