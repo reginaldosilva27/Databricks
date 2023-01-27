@@ -38,3 +38,4 @@
 ``Referencias:``
 - <https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
 - <https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
+- <https://docs.databricks.com/workflows/delta-live-tables/delta-live-tables-faqs-issues.html>
