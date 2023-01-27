@@ -37,6 +37,6 @@
 
 [Github](https://github.com/reginaldosilva27)
 
->``Referencias:``
+>`Referencias:`
 <https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
 <https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
