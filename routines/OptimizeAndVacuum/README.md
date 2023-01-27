@@ -31,12 +31,10 @@
 #### --> Modo Debug - Apenas print <--
 ``maintenanceDeltalake(nomeSchema='db_festivaldemo', nomeTabela='PatientInfoDelta', colunasZorder='none', vacuumRetention=168, vacuum=True, optimize=True, debug=True)``
 
->``Criado por: Reginaldo Silva``
+``Criado por: Reginaldo Silva``
+- [Blog Data In Action](https://datainaction.dev/)
+- [Github](https://github.com/reginaldosilva27)
 
-[Blog Data In Action](https://datainaction.dev/)
-
-[Github](https://github.com/reginaldosilva27)
-
->`Referencias:`
-<https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
-<https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
+``Referencias:``
+- <https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
+- <https://learn.microsoft.com/pt-br/azure/databricks/sql/language-manual/delta-optimize>
