@@ -61,7 +61,7 @@ Se você conseguir levantar essa quantidade de espaço de forma mais performatic
 > Ajuste o comando 14 do Notebook, corrija o caminho do notebook: %run /Databricks/OptimizeAndVacuum
 <br><https://github.com/reginaldosilva27/Databricks/tree/main/routines/OptimizeAndVacuum>
 
-##Referencias:
+## Referencias:
 
 <https://github.com/delta-io/delta/blob/master/core/src/main/scala/org/apache/spark/sql/delta/commands/VacuumCommand.scala>
 
