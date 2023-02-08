@@ -66,3 +66,7 @@ Se você conseguir levantar essa quantidade de espaço de forma mais performatic
 <https://github.com/delta-io/delta/blob/master/core/src/main/scala/org/apache/spark/sql/delta/commands/VacuumCommand.scala>
 
 <https://docs.databricks.com/sql/language-manual/delta-vacuum.html>
+
+``Criado por: Reginaldo Silva``
+- [Blog Data In Action](https://datainaction.dev/)
+- [Github](https://github.com/reginaldosilva27)
