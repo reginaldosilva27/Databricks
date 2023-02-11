@@ -4,7 +4,7 @@ import requests
 import json
 
 ## O seu databricks Instance voce encontra na sua URL.
-instance_id = 'adb-7905259628590272.12.azuredatabricks.net' 
+instance_id = 'xxxxxxx.12.azuredatabricks.net' 
 
 # Aqui estamos usando a API na versão 2.0 que é a mais recente no momento
 api_version = '/api/2.0'
@@ -13,7 +13,7 @@ url = f"https://{instance_id}{api_version}{api_command}"
 print(url)
 
 headers = {
-  'Authorization': "Bearer xxxxxx"  ## put your databricks token here
+  'Authorization': "Bearer xxxxxxx"  ## put your databricks token here
 }
 
 response = requests.get(
