@@ -40,7 +40,7 @@ dbutils.fs.ls('/databricks-datasets/COVID/')
 def get_dir_content(ls_path):
     path_list = dbutils.fs.ls(ls_path)
     for dir_path in dbutils.fs.ls(ls_path):
-        if dir_path.isDir() and ls_path != dir_path.path:
+        if dir_path.isDir() and ls_path != dir_path.path and '_delta_log' not in dir_path.path:
             path_list += get_dir_content(dir_path.path)
     return path_list
 
