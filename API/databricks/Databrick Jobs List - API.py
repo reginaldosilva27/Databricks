@@ -66,7 +66,7 @@ dfJobsProd.select(
   dfJobsProd.jobs.settings.format.cast('string').alias("format"),
   dfJobsProd.jobs.settings.tasks[0].existing_cluster_id.cast('string').alias("existing_cluster_id"),
   dfJobsProd.jobs.settings.tasks[1].existing_cluster_id.cast('string').alias("existing_cluster_id2"),
-  dfJobsProd.jobs.settings.tasks[1].existing_cluster_id.cast('string').alias("existing_cluster_id3"),
+  dfJobsProd.jobs.settings.tasks[2].existing_cluster_id.cast('string').alias("existing_cluster_id3"),
   to_timestamp(dfJobsProd.jobs.created_time / 1000).alias('created_time')
 ).createOrReplaceTempView('vwJobs')
 
