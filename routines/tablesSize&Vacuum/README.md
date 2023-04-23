@@ -6,16 +6,7 @@ Selecionar o opção Import
 Selecionar o script e importar:
 <img width="489" alt="image" src="https://user-images.githubusercontent.com/69867503/218261470-653f47d0-597d-4731-bec2-da14a1cce4b8.png">
 
-| Versão | data | Descrição |
-|-----------|-------|----------|
-| `v1.0` | 2022-12-01 | Executando em clientes internos |
-| `v1.1` | 2023-02-25 | Liberado para mais alguns clientes e engenheiros|
-| `v2.0` | 2023-04-24 | Liberado publicamente |
 
-Link do post:
-https://www.datainaction.dev/post/databricks-tablessize-vacuum-monitore-e-reduza-custos-do-seu-delta-lake
-
-%md
 | Versão | data | Descrição |
 |-----------|-------|----------|
 | `v1.0` | 2022-12-01 | Executando em clientes internos |
