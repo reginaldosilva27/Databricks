@@ -15,6 +15,15 @@ Selecionar o script e importar:
 Link do post:
 https://www.datainaction.dev/post/databricks-tablessize-vacuum-monitore-e-reduza-custos-do-seu-delta-lake
 
+%md
+| Versão | data | Descrição |
+|-----------|-------|----------|
+| `v1.0` | 2022-12-01 | Executando em clientes internos |
+| `v1.1` | 2023-02-25 | Liberado para mais alguns clientes e engenheiros|
+| `v2.0` | 2023-04-24 | Liberado publicamente |
+
+Link do post: https://www.datainaction.dev/post/databricks-tablessize-vacuum-monitore-e-reduza-custos-do-seu-delta-lake
+
 <h1>Funcionalidade e objetivo </h1>
 
 > Esse notebook tem como principal objetivo coletar informações de tamanho e realizar limpeza das tabelas no formato Delta.
@@ -87,7 +96,7 @@ Se você conseguir levantar essa quantidade de espaço de forma mais performáti
 | `databaseCatalog` | 'db_controle' | Define em qual database será armazenado os logs, caso não exista será criado um novo |
 | `tableCatalog` | 'tbCatalog' | Define nome da tabela de controle para armazenar as tabelas que serão analisadas, caso não exista a tabela será criada |
 | `tbVacuumSummary` | 'tbVacuumSummary' | Define nome da tabela para armazenar o resultado agregado da execução, caso não exista a tabela será criada |
-| `tableSizesMonitor` | 'tableSizesMonitor' | Define nome da tabela para armazenar o resultado agregado da execução com detalhes no nível de tabela, caso não exista a tabela será criada |
+| `tablesSizeMonitor` | 'tablesSizeMonitor' | Define nome da tabela para armazenar o resultado agregado da execução com detalhes no nível de tabela, caso não exista a tabela será criada |
 | `tableDetails` | 'bdaTablesDetails' | Define nome da tabela que irá armazenar o resultado do describe detail, caso não exista a tabela será criada |
 | `tableStorageFiles` | 'bdaTablesStorageSize' | Define nome da tabela que irá armazenar o resultado do dbutils.fs.ls |
 | `storageLocation` | 'abfss://[container]@[Storage].dfs.core.windows.net/pastaraiz/' [**Exemplo no Azure**]| Define endereço de storage principal, pode ser usado o valor absoluto ou um Mount (dbfs:/mnt/bronze/pastaRaiz/) |
@@ -103,14 +112,14 @@ Se você conseguir levantar essa quantidade de espaço de forma mais performáti
 > 1x Tabela de catalogo, irá armazenar a listagem, por padrão o nome será **tbCatalog**, se o parâmetro enableHistory estiver desabilitado ela será sobrescrita em cada execução <br>
 > 1x Tabela para armazenar o resultado do describe detail, por padrão será chamada de **bdaTablesDetails**, se o parâmetro enableHistory estiver desabilitado ela será sobrescrita em cada execução <br>
 > 1x Tabela para armazenar o resultado do List files, por padrão será chamada de **tableStorageFiles**, se o parâmetro enableHistory estiver desabilitado ela será sobrescrita em cada execução <br>
-> 1x Tabela para armazenar o resultado agregado da execução com detalhes no nivel de tabela, por padrão será chamada de **tableSizesMonitor**, essa tabela nunca é truncada <br>
+> 1x Tabela para armazenar o resultado agregado da execução com detalhes no nivel de tabela, por padrão será chamada de **tablesSizeMonitor**, essa tabela nunca é truncada <br>
 > 1x Tabela para armazenar o resultado agregado da execução, por padrão será chamada de **tbVacuumSummary**, essa tabela nunca é truncada <br>
 
 ## Monitoramento
 
-> Monitore seu ambiente através das tabelas tbVacuumSummary e tableSizesMonitor<br>
+> Monitore seu ambiente através das tabelas tbVacuumSummary e tablesSizeMonitor<br>
 > A tabela **tbVacuumSummary** armazena 1 linha por execução de dados sumarizados<br>
-> A tabela **tableSizesMonitor** armazena 1 linha por tabela por execução com dados sumarizados<br>
+> A tabela **tablesSizeMonitor** armazena 1 linha por tabela por execução com dados sumarizados<br>
 
 
 ## Benchmarch:
