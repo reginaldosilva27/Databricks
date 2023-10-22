@@ -1,0 +1,91 @@
+{
+    "definition": {
+        "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+        "actions": {
+            "HTTP_-_Run_Databricks_Job": {
+                "inputs": {
+                    "body": {
+                        "job_id": "@triggerBody()?['jobId']"
+                    },
+                    "headers": {
+                        "Authorization": "Bearer xxxxx"
+                    },
+                    "method": "POST",
+                    "uri": "@triggerBody()?['databricksWorkspace']"
+                },
+                "runAfter": {},
+                "type": "Http"
+            },
+            "Send_Email_Notification": {
+                "inputs": {
+                    "body": {
+                        "Body": "<p>Abaixo detalhes da execução:<br>\n<br>\n<strong></strong><strong>@{triggerBody()?['customBody']}</strong><strong></strong><br>\n<br>\n<strong>JobName:</strong><strong>@{triggerBody()?['jobName']}</strong><strong> </strong><br>\n<strong>DatabricksAPI</strong>:@{triggerBody()?['databricksWorkspace']}<br>\n<strong>Date</strong>: @{triggerBody()?['dateLog']} <br>\n<strong>Result</strong>:@{body('HTTP_-_Run_Databricks_Job')}&nbsp;</p>",
+                        "Importance": "High",
+                        "Subject": "@triggerBody()?['subject']",
+                        "To": "@triggerBody()?['emailList']"
+                    },
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['office365']['connectionId']"
+                        }
+                    },
+                    "method": "post",
+                    "path": "/v2/Mail"
+                },
+                "runAfter": {
+                    "HTTP_-_Run_Databricks_Job": [
+                        "Succeeded"
+                    ]
+                },
+                "type": "ApiConnection"
+            }
+        },
+        "contentVersion": "1.0.0.0",
+        "outputs": {},
+        "parameters": {
+            "$connections": {
+                "defaultValue": {},
+                "type": "Object"
+            }
+        },
+        "triggers": {
+            "Events_Monitor_": {
+                "evaluatedRecurrence": {
+                    "frequency": "Minute",
+                    "interval": 1
+                },
+                "inputs": {
+                    "host": {
+                        "connection": {
+                            "name": "@parameters('$connections')['sql_3']['connectionId']"
+                        }
+                    },
+                    "method": "get",
+                    "path": "/v2/datasets/@{encodeURIComponent(encodeURIComponent('default'))},@{encodeURIComponent(encodeURIComponent('default'))}/tables/@{encodeURIComponent(encodeURIComponent('tb_OrchestratorEvents'))}/onnewitems"
+                },
+                "recurrence": {
+                    "frequency": "Minute",
+                    "interval": 1
+                },
+                "splitOn": "@triggerBody()?['value']",
+                "type": "ApiConnection"
+            }
+        }
+    },
+    "parameters": {
+        "$connections": {
+            "value": {
+                "office365": {
+                    "connectionId": "/subscriptions/b71883c3-c463-4eb2-b54a-d7eece44d276/resourceGroups/rgDatabricks/providers/Microsoft.Web/connections/office365-2",
+                    "connectionName": "office365-2",
+                    "id": "/subscriptions/b71883c3-c463-4eb2-b54a-d7eece44d276/providers/Microsoft.Web/locations/eastus/managedApis/office365"
+                },
+                "sql_3": {
+                    "connectionId": "/subscriptions/b71883c3-c463-4eb2-b54a-d7eece44d276/resourceGroups/rgDatabricks/providers/Microsoft.Web/connections/sql-10",
+                    "connectionName": "sql-10",
+                    "id": "/subscriptions/b71883c3-c463-4eb2-b54a-d7eece44d276/providers/Microsoft.Web/locations/eastus/managedApis/sql"
+                }
+            }
+        }
+    }
+}
