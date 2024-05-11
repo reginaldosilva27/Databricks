@@ -48,7 +48,7 @@
 > https://partner-academy.databricks.com/learn/lp/207/Platform%2520Administrator%2520Learning%2520Plan
 
 
-## Complementares
+## Cursos Complementares
 
 - Databricks Specialist Sessions (Muito conteúdo top):
 > https://partner-academy.databricks.com/learn/course/1456/Databricks%2520Specialist%2520Sessions
@@ -82,6 +82,9 @@
 
 - Generative AI Fundamentals Accreditation:
 > https://partner-academy.databricks.com/learn/course/1811/generative-ai-fundamentals-accreditation;lp=275
+<img width="809" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/76d384d6-2ae6-44f8-aca7-c871a0e49279">
+
+<a href="#introducion" style="width:100%"><img style="width:100%" src="https://static.wixstatic.com/media/a794bc_b10266580b524f6586d3b2d835cfb036~mv2.png" /></a>
 
 - Azure Databricks Platform Architect Accreditation:
 > https://partner-academy.databricks.com/learn/course/1752/azure-databricks-platform-architect-accreditation;lp=254
@@ -91,29 +94,45 @@
 
 - GCP Databricks Platform Architect Accreditation:
 > https://partner-academy.databricks.com/learn/course/1756/gcp-databricks-platform-architect-accreditation;lp=266
+<img width="1220" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/d8ce404b-cdcb-4e2f-b056-0aa73ad5df69">
+
+<a href="#introducion" style="width:100%"><img style="width:100%" src="https://static.wixstatic.com/media/a794bc_b10266580b524f6586d3b2d835cfb036~mv2.png" /></a>
 
 - Databricks Accredited Platform Administrator Accreditation:
 > https://partner-academy.databricks.com/learn/course/1229/databricks-accredited-platform-administrator-accreditation;lp=207
+<img width="396" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/16a54389-945b-4413-983d-58af9a431cf3">
 
 ## Certificações oficiais
 
 - Databricks Certified Data Analyst Associate:
 > https://www.databricks.com/learn/certification/data-analyst-associate
+<img width="430" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/db932b12-5375-4fe4-9079-b745fa73fb86">
+
+<a href="#introducion" style="width:100%"><img style="width:100%" src="https://static.wixstatic.com/media/a794bc_b10266580b524f6586d3b2d835cfb036~mv2.png" /></a>
 
 - Databricks Certified Data Engineer Associate:
 > https://www.databricks.com/learn/certification/data-engineer-associate
 
 - Databricks Certified Data Engineer Professional:
 > https://www.databricks.com/learn/certification/data-engineer-professional
+<img width="805" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/adf94dbc-084e-4341-92dd-f871e56f9812">
+
+<a href="#introducion" style="width:100%"><img style="width:100%" src="https://static.wixstatic.com/media/a794bc_b10266580b524f6586d3b2d835cfb036~mv2.png" /></a>
+
 
 - Databricks Certified Machine Learning Associate:
 > https://www.databricks.com/learn/certification/machine-learning-associate
 
 - Databricks Certified Machine Learning Professional:
 > https://www.databricks.com/learn/certification/machine-learning-professional
+<img width="851" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/27c6dcc4-6c69-499b-92e5-27aace510bfb">
+
+<a href="#introducion" style="width:100%"><img style="width:100%" src="https://static.wixstatic.com/media/a794bc_b10266580b524f6586d3b2d835cfb036~mv2.png" /></a>
+
 
 - Databricks Certified Associate Developer for Apache Spark:
 > https://www.databricks.com/learn/certification/apache-spark-developer-associate
 
 - Databricks Certified Hadoop Migration Architect:
 > https://www.databricks.com/learn/certification/hadoop-migration-architect
+<img width="812" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/f318634f-ad00-4406-9b2c-eb4c764fa6a1">
