@@ -3,9 +3,11 @@
 # Table of Contents
 1. [Fundamentals](#Fundamentals)
 2. [Learning Paths](#Learning-Paths)
-3. [Complementares](#Complementares)
+3. [Complementares](#Cursos-Complementares)
 4. [Accreditation e Badges](#Accreditation-e-Badges)
 5. [Certificações oficiais](#Certificações-oficiais)
+6. [Cursos em Portugês ](#Cursos-em-Portugês )
+7. [Cursos Free para Não partners](#Cursos-Free-para-Não-partners)
 
 ## Fundamentals 
 
@@ -136,3 +138,27 @@
 - Databricks Certified Hadoop Migration Architect:
 > https://www.databricks.com/learn/certification/hadoop-migration-architect
 <img width="812" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/f318634f-ad00-4406-9b2c-eb4c764fa6a1">
+
+
+## Cursos em Portugês 
+### Nota: São cursos com legenda em português.
+
+- Databricks Fundamentals Learning Plan - Portuguese BR:
+> https://partner-academy.databricks.com/learn/learning_plan/view/317/plano-de-aprendizado-dos-fundamentos-da-databricks-databricks-fundamentals-learning-plan-portuguese-br
+
+- Get Started with Databricks for Data Engineering - Portuguese BR:
+> https://partner-academy.databricks.com/learn/course/internal/view/elearning/2331/get-started-with-databricks-for-data-engineering-portuguese-br
+
+- Data Engineering with Databricks - Portuguese BR:
+> https://partner-academy.databricks.com/learn/course/2263/play/16173
+
+- Databricks Generative AI Fundamentals Learning Plan - Portuguese BR:
+> https://partner-academy.databricks.com/learn/learning_plan/view/314/plano-de-aprendizado-fundamentais-de-ia-generativa-da-databricks-databricks-generative-ai-fundamentals-learning-plan-portuguese-br
+
+## Cursos Free para Não partners 
+
+
+
+
+
+
