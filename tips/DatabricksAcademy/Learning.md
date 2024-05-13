@@ -8,7 +8,7 @@
 5. [Accreditation e Badges](#Accreditation-e-Badges)
 6. [Certificações oficiais](#Certificações-oficiais)
 7. [Cursos Legendados](#Cursos-Legendados)
-8. [Ordem recomendada de estudo - Data Engineer](#Ordem-recomendada-de-estudo-Data-Engineer)
+8. [Ordem recomendada de estudo - Data Engineer](#Ordem-recomendada-de-estudo-para-Data-Engineer)
 
 ## Introdução
 Aqui temos um compilado de cursos dentro da plataforma **Databricks Academy** que você pode aproveitar 100% FREE (0800), **são mais de 50 mil reais em cursos**.
@@ -229,7 +229,7 @@ https://www.databricks.com/br/learn/training/login
 - Databricks Generative AI Fundamentals Learning Plan - Portuguese BR: **[CUSTOMER]**
 > https://customer-academy.databricks.com/learn/learning_plan/view/314/plano-de-aprendizado-fundamentais-de-ia-generativa-da-databricks-databricks-generative-ai-fundamentals-learning-plan-portuguese-br
 
-## Ordem recomendada de estudo - Data Engineer
+## Ordem recomendada de estudo para Data Engineer
 
 A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
 
