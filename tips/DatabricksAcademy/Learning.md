@@ -4,11 +4,13 @@
 1. [Introdução](#Introdução)
 2. [Fundamentals](#Fundamentals)
 3. [Learning Paths](#Learning-Paths)
-4. [Complementares](#Cursos-Complementares)
+4. [Cursos Complementares](#Cursos-Complementares)
 5. [Accreditation e Badges](#Accreditation-e-Badges)
 6. [Certificações oficiais](#Certificações-oficiais)
 7. [Cursos Legendados](#Cursos-Legendados)
 8. [Ordem recomendada de estudo - Data Engineer](#Ordem-recomendada-de-estudo-para-Data-Engineer)
+9. [Ordem recomendada para Certificação](#Ordem-recomendada-para-Certificação)
+
 
 ## Introdução
 Aqui temos um compilado de cursos dentro da plataforma **Databricks Academy** que você pode aproveitar 100% FREE (0800), **são mais de 50 mil reais em cursos**.
@@ -243,6 +245,15 @@ A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas 
 8. Advanced Data Engineering with Databricks
 9. Databricks Specialist Sessions
 10. Unity Catalog Essentials
+
+## Ordem recomendada para Certificação
+
+A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
+
+1. Databricks Certified Associate Developer for Apache Spark
+2. Databricks Certified Data Engineer Associate
+3. Databricks Certified Data Analyst Associate
+4. Databricks Certified Data Engineer Professional
 
 
 
