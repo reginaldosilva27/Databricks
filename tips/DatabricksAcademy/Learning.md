@@ -8,25 +8,29 @@
 5. [Accreditation e Badges](#Accreditation-e-Badges)
 6. [Certificações oficiais](#Certificações-oficiais)
 7. [Cursos Legendados](#Cursos-Legendados)
-8. [Ordem recomendada de estudo](#Ordem-recomendada-de-estudo)
+8. [Ordem recomendada de estudo - Data Engineer](#Ordem-recomendada-de-estudo-Data-Engineer)
 
 ## Introdução
-Aqui temos um compilado de cursos dentro da plataforma Databricks Academy que você pode aproveitar 100% FREE (0800).
+Aqui temos um compilado de cursos dentro da plataforma **Databricks Academy** que você pode aproveitar 100% FREE (0800), **são mais de 50 mil reais em cursos**.
 
-Não está incluso todos os cursos, mas sim, os que considero essenciais.
+Não está listado todos os cursos da plataforma, mas sim, os que considero essenciais.
 
 ### **ATENÇÃO**:
-Existem dois portais de estudo:
+Existem **dois portais** de estudo:
 <br>**Partner**: Aqui estão liberados praticamente todos os cursos e materias FREE para empresas que são Partners, você precisa acessar com o e-mail da sua empresa, para saber se sua empresa é Parter ou como se tornar um, entre em contato com um Account Manager Databricks
-<br>**Customer**: Para quem não é Parter temos um conteúdo mais limitado, embora ainda tem bastante coisa FREE, APROVEITE
-<br> OBS: Deixarei uma TAG na frente dos links destacando de qual Portal é o curso: [PARTNER], [CUSTOMER]
+<br>**Customer**: Para quem não é Parter temos um conteúdo um pouco maislimitado, mas quase todos os essenciais são FREE, **APROVEITE**
+<br> **OBS: Deixarei uma TAG na frente dos links destacando de qual Portal é o curso: [PARTNER], [CUSTOMER]**
 <br>
 <br>Para descobrir se sua empresa é Partner, busque ela nesse portal, se ela for, sinta-se presenteado, são mais de **50 mil** reais em cursos totalmente FREE.
 <br>https://www.databricks.com/company/partners
 <br>
 <img width="1021" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/e0b4d62e-896e-4fd9-8e92-9d3621825ce5">
-
-
+<br>
+#### Acessando o Portal:
+https://www.databricks.com/br/learn/training/login
+<img width="1127" alt="image" src="https://github.com/reginaldosilva27/Databricks/assets/69867503/0aed4f9d-0ed0-4eba-998f-c1b0ce287735">
+<br>
+<br>
 ## Fundamentals 
 
 > Aqui são os cursos introdutórios sobre Databricks e Generative AI, são cursos focados nos fundamentos, essencial que você não pule essa etapda.
