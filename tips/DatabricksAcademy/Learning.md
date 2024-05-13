@@ -233,7 +233,7 @@ https://www.databricks.com/br/learn/training/login
 
 ## Ordem recomendada de estudo para Data Engineer
 
-A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
+A ordem abaixo é baseado na MINHA opinião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
 
 1. What is Big Data?
 2. Databricks Fundamentals Learning Plan
@@ -248,7 +248,7 @@ A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas 
 
 ## Ordem recomendada para Certificação
 
-A ordem abaixo é baseado na MINHA opnião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
+A ordem abaixo é baseado na MINHA opinião, não existe ordem 100% correta, mas existem algumas ordens mais lógicas.
 
 1. Databricks Certified Associate Developer for Apache Spark
 2. Databricks Certified Data Engineer Associate
