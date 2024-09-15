@@ -18,6 +18,7 @@
 - **set spark.databricks.sync.command.enableManagedTable=true;**
   - Ao usar essa opção, você não pode dropar a tabela no HMS, pois, o dados serão excluídos do Storage
   - Caso queira dropar, use o script Scala para trocar ela de Managed para External
+  - Outra dica, após a migração das suas tabelas do HMS para o UC, caso você não drop elas no HMS, voce pode usar essa opção para evitar que alguém escreva nelas, principalmente se forem Managed.
 
 ## Tabelas Managed vs External
 
