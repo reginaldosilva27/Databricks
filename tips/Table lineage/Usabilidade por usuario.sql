@@ -1,4 +1,6 @@
--- tabelas mais lidas por dia
+-- tabelas mais lidas por usuário
+-- Aplique filtros de datas se achar necessário
+-- Customize conforme sua necessidade
 select
   loginName,
   catalogName,
