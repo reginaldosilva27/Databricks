@@ -1,4 +1,6 @@
 -- tabelas mais lidas
+-- Aplique filtros de datas se achar necessário
+-- Customize conforme sua necessidade
 select
   catalogName,
   schemaName,
