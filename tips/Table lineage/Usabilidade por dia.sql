@@ -1,4 +1,6 @@
 -- tabelas mais lidas por dia
+-- Aplique filtros de datas se achar necessário
+-- Customize conforme sua necessidade
 select
   event_date,
   catalogName,
